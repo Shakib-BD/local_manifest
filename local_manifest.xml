@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="shakib" fetch="https://github.com/Shakib-BD"/>
-  <remote name="dev" fetch="https://github.com/mt6768-dev"/>
-  <remote name="los" fetch="https://github.com/LineageOS"/>
+  <remote name="dev" fetch="https://github.com/mt6768-dev" />
+  <remote name="shakib" fetch="https://github.com/Shakib-BD" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
+  <remote name="los" fetch="https://github.com/LineageOS" />
 
-  <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="shakib" revision="main"/>
+  <remove-project name="android_external_chromium-webview_prebuilt_arm64" />
 
-  <!-- Common Device Tree -->
+ <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="shakib" revision="lineage-20"/>
+     
+ <!-- Device Tree -->
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="shakib" revision="rising-13"/>
 
-  <!-- Kernel Trees -->
+ <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-20"/>
 
-  <!-- vendor Common Trees --> 
+ <!-- vendor Common Trees--> 
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
 
-  <!-- vendor tree -->
+ <!--vendor tree-->
   <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="dev" revision="lineage-20"/>
 
-  <!-- Hardware -->
+ <!--Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/>
 
-  <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote=dev" revision="lineage-20"/>
+ <!-- Mtk sepolicy -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
 
-  <!-- Extra -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1"/>
+ <!-- Extra -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1"/>
 
+ <!-- External Webview -->
+ <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="los" revision="backup/main_20230314" />
+  
 </manifest>
