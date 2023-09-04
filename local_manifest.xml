@@ -6,6 +6,8 @@
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
   <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="mitsu" fetch="https://github.com/mitsu00" />
+  <remote name="gh" fetch="https://github.com" />
+  <remote name="havoc-rmx2020" fetch="https://github.com/HavocOS-RMX2020" revision="refs/heads/thirteen" />
 
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="shakib" revision="lineage-20"/>
@@ -30,5 +32,21 @@
   
  <!-- Extra -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1"/>
+
+<!-- Replacement -->
+  <remove-project name="android_device_havoc_sepolicy" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_av" />
+  <remove-project name="android_frameworks_native" />
+  <remove-project name="android_frameworks_opt_telephony" />
+  <remove-project name="android_packages_modules_Wifi" />
+
+  <project path="frameworks/opt/net/ims" name="Evolution-X/frameworks_opt_net_ims.git" remote="gh" revision="tiramisu"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="havoc-rmx2020" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="havoc-rmx2020" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="havoc-rmx2020" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc-rmx2020" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="havoc-rmx2020" />
   
 </manifest>
