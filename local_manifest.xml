@@ -3,9 +3,9 @@
 
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
   <remote name="shakib" fetch="https://github.com/Shakib-BD" />
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
   <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="mitsu" fetch="https://github.com/mitsu00" />
+  <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
 
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="mitsu" revision="lineage-20"/>
@@ -28,7 +28,7 @@
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
   
- <!-- Extra -->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1"/>
+<!-- Extra -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
   
 </manifest>
