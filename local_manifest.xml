@@ -32,13 +32,15 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
 
 <!-- Remove Project -->
- <remove-project name="frameworks_av" remote="alpha" />
- <project path="frameworks/av" name="frameworks_av" remote="mitsu" revision="alpha-13" />
+ <remove-project name="frameworks_av" remote="alpha"/>
+
+<!-- Fix video playback -->
+ <project path="frameworks/av" name="frameworks_av" remote="mitsu" revision="alpha-13"/>
 
 <!-- Remove Project -->
-  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
+ <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
   
 <!-- External Webview -->
-  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm6
+ <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64"/>
   
 </manifest>
