@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote name="shakib" fetch="https://github.com/Shakib-BD" />
   <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="mitsu" fetch="https://github.com/mitsu00" />
