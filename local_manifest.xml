@@ -6,7 +6,7 @@
   <remote name="mitsu" fetch="https://github.com/mitsu00" />
 
  <!-- Viper4Android -->
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="ozip" revision="main" />
+  <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX" remote="shakib" revision="main" />
 
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="dt_common_merlinx" remote="shakib" revision="lineage-20"/>
@@ -20,16 +20,16 @@
  <!-- vendor Common Trees--> 
   <project path="vendor/xiaomi/mt6768-common" name="vt_common_merlinx" remote="shakib" revision="lineage-20"/>
 
- <!--vendor tree-->
+ <!-- vendor tree-->
   <project path="vendor/xiaomi/merlinx" name="vt_merlinx" remote="shakib" revision="lineage-20"/>
 
- <!--Hardware -->
+ <!-- MTK Hardware -->
   <project path="hardware/mediatek" name="hardware_mediatek" remote="shakib" revision="lineage-20"/>
 
- <!-- Mtk sepolicy -->
+ <!-- MTK sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy" remote="shakib" revision="lineage-20"/>
 
- <!-- Extra -->
+ <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="ozip" revision="main" clone-depth="1"/>
 
 </manifest>
