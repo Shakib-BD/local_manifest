@@ -2,8 +2,8 @@
 <manifest>
 
   <remote name="shakib" fetch="https://github.com/Shakib-BD" />
-  <remote name="ozip" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
-  <remote name="mitsu" fetch="https://github.com/mitsu00" />
+  <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
+  <remote name="los" fetch="https://github.com/LineageOS" />
 
  <!-- Viper4Android -->
   <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX" remote="shakib" revision="main" />
@@ -12,7 +12,7 @@
   <project path="device/xiaomi/mt6768-common" name="dt_common_merlinx" remote="shakib" revision="lineage-20"/>
      
  <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="dt_merlinx" remote="shakib" revision="lineage-20"/>
+  <project path="device/xiaomi/merlinx" name="dt_merlinx" remote="shakib" revision="cherish-13"/>
 
  <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="kt_merlinx" remote="shakib" revision="lineage-20"/>
@@ -30,6 +30,10 @@
   <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy" remote="shakib" revision="lineage-20"/>
 
  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="ozip" revision="main" clone-depth="1"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
+
+ <!-- Remove Project -->
+ <remove-project name="LineageOS/android_hardware_qcom_display" />
+ <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0" clone-depth="1" />
 
 </manifest>
