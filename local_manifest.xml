@@ -34,6 +34,5 @@
 
  <!-- Remove Project -->
  <remove-project name="LineageOS/android_hardware_qcom_display" />
- <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0" clone-depth="1" />
 
 </manifest>
