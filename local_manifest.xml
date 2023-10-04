@@ -30,7 +30,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
 
 <!-- Remove Project -->
- <remove-project name="device/mediatek/sepolicy_vndr" />
- <project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="ArrowOS" revision="arrow-13.1"/>
+  <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
+  <project path="Shakib-BD/android_device_mediatek_sepolicy_vndr" name="device/mediatek/sepolicy_vndr" remote="shakib" revision="lineage-20" clone-depth="1" />
 
 </manifest>
