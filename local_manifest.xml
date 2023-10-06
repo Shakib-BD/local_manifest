@@ -13,7 +13,7 @@
   <project path="device/xiaomi/merlinx" name="dt_merlinx" remote="shakib" revision="alpha-13"/>
 
  <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="kt_merlinx" remote="shakib" revision="lineage-20"/>
+  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="mitsu" revision="noksu"/>
 
  <!-- vendor Common Trees--> 
   <project path="vendor/xiaomi/mt6768-common" name="vt_common_merlinx" remote="shakib" revision="lineage-20"/>
@@ -22,10 +22,10 @@
   <project path="vendor/xiaomi/merlinx" name="vt_merlinx" remote="shakib" revision="lineage-20"/>
 
  <!-- MTK Hardware -->
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="shakib" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/>
 
  <!-- MTK sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy" remote="shakib" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/>
 
  <!-- Viper4Android -->
   <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX" remote="shakib" revision="main" />
