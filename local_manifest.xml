@@ -8,7 +8,7 @@
   <project path="device/xiaomi/mt6768-common" name="dt_common_merlinx" remote="shakib" revision="lineage-20"/>
      
  <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="dt_merlinx" remote="shakib" revision="derpfest-13"/>
+  <project path="device/xiaomi/merlinx" name="dt_merlinx" remote="shakib" revision="syberia-13"/>
 
  <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="kt_merlinx" remote="shakib" revision="lineage-20"/>
