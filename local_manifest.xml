@@ -25,12 +25,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
 
 <!-- Remove Project -->
- <remove-project name="frameworks_av" remote="alpha"/>
-
-<!-- Fix video playback -->
- <project path="frameworks/av" name="frameworks_av" remote="mitsu" revision="alpha-13"/>
-
-<!-- Remove Project -->
  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
   
 <!-- External Webview -->
