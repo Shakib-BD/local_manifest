@@ -4,23 +4,9 @@
   <remote name="shakib" fetch="https://github.com/Shakib-BD" />
   <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
 
- <!-- Viper4Android -->
-  <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX" remote="shakib" revision="main" />
-
- <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="dt_common_merlinx" remote="shakib" revision="lineage-20"/>
-     
  <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="dt_merlinx" remote="shakib" revision="cherish-13"/>
+  <project path="device/xiaomi/stone" name="android_device_xiaomi_rock" remote="shakib" revision="AlphaDroid-13"/>
 
- <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="kt_merlinx" remote="shakib" revision="lineage-20"/>
-
- <!-- vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="vt_common_merlinx" remote="shakib" revision="lineage-20"/>
-
- <!-- vendor tree-->
-  <project path="vendor/xiaomi/merlinx" name="vt_merlinx" remote="shakib" revision="lineage-20"/>
 
  <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/>
