@@ -2,13 +2,20 @@
 <manifest>
     <remote name="shakib" fetch="https://github.com/Shakib-BD" />
     <remote name="los" fetch="https://github.com/Los-FE" />
+    <remote name="los-webview" fetch="https://github.com/LineageOS" />
 
     <!-- Device and Vendor trees -->
     <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="shakib" revision="crdroid" clone-depth="1" />
     <project path="vendor/realme/RMX2185" name="vendor_realme_RMX2185" remote="shakib" revision="lineage-18.1" clone-depth="1" />
     <project path="kernel/realme/mt6765" name="android_kernel_realme_mt6765" remote="shakib" revision="lineage-17.1" clone-depth="1" />
    
-    <!-- Patches -->
+    <!-- External Selinux-->
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="android_external_selinux" remote="los" revision="lineage-18.1" clone-depth="1" />
+
+    <!-- External Webview -->
+    <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
+    <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="los-webview" revision="backup/main_20230314" />
+  
+
 </manifest>
