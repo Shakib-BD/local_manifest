@@ -3,15 +3,17 @@
 
   <remote name="shakib" fetch="https://github.com/Shakib-BD" />
   <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
+  <remote name="sepolicyy" fetch="https://github.com/dm700-devs" />
+  <remote name="hardwaree" fetch="https://github.com/ArrowOS" />
   
  <!-- Device Tree -->
-  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="EvoX-T"/>
+  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="EvoX-UDC"/>
 
  <!-- Mtk Hardware -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/>
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="hardwaree" revision="arrow-14.0"/>
 
  <!-- Mtk sepolicy -->
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/>
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="sepolicyy" revision="fourteen"/>
 
 <!-- Hardware Xiaomi -->
  <!-- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="shakib" revision="thirteen"/> -->
