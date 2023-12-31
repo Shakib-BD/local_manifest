@@ -13,7 +13,7 @@
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="hardwaree" revision="arrow-14.0"/>
 
  <!-- Mtk sepolicy -->
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="sepolicyy" revision="fourteen-qpr1"/>
+ <!-- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="sepolicyy" revision="fourteen-qpr1"/> -->
 
 <!-- Hardware Xiaomi -->
  <!-- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="shakib" revision="thirteen"/> -->
