@@ -8,9 +8,9 @@
   <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="AfterLife-13"/>
 
  <!-- Mtk Hardware -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/>
+ <!-- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/> -->
 
  <!-- Mtk sepolicy -->
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/>
+ <!--  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/> -->
 
 </manifest>
