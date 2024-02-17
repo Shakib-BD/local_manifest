@@ -3,16 +3,10 @@
 
   <remote name="shakib" fetch="https://github.com/Shakib-BD" />
   <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
-  <remote name="arrowy" fetch="https://github.com/ArrowOS" />
 
  <!-- Device Tree -->
-  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="EvoX-UDC"/>
+  <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="lineage-20"/>
 
- <!-- Mtk Hardware -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="arrowy" revision="arrow-14.0"/>
-
- <!-- Mtk sepolicy -->
-<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="arrowy" revision="arrow-14.0"/>
 
  <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
