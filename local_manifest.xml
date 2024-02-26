@@ -5,7 +5,7 @@
   <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
   
  <!-- Device Tree -->
-  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="EvoX-T"/>
+  <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="AfterLife-13"/>
 
  <!-- Mtk Hardware -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/>
@@ -14,7 +14,7 @@
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/>
 
 <!-- Hardware Xiaomi -->
- <!-- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="shakib" revision="thirteen"/> -->
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="shakib" revision="thirteen"/>
   
  <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
