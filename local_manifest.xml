@@ -2,11 +2,15 @@
 <manifest>
 
   <remote name="shakib" fetch="https://github.com/Shakib-BD"/>
+  <remote name="yunluo" fetch="https://github.com/xiaomi-mt6789-devs" />
   <!-- <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/> -->
   <!-- <remote name="los" fetch="https://github.com/LineageOS" /> -->
 
  <!-- Device Tree -->
  <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="13-AfterLife"/>
+
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/rock" name="kernel_xiaomi-yunluo" remote="yunluo" revision="tm" />
 
  <!-- Hardware Xiaomi -->
  <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/> -->
