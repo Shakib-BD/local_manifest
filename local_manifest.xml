@@ -3,22 +3,21 @@
 
   <remote name="shakib" fetch="https://github.com/Shakib-BD"/>
   <remote name="yunluo" fetch="https://github.com/xiaomi-mt6789-devs" />
-  <!-- <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/> -->
-  <!-- <remote name="los" fetch="https://github.com/LineageOS" /> -->
+  <remote name="los" fetch="https://github.com/LineageOS" />
 
  <!-- Device Tree -->
- <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="13-AfterLife-Vanilla"/>
+ <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="14-DerpFest"/>
 
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/rock" name="kernel_xiaomi-yunluo" remote="yunluo" revision="tm" />
 
  <!-- Hardware Xiaomi -->
- <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/> -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
 
  <!-- Mtk Hardware -->
- <!-- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/> -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/>
 
  <!-- Mtk sepolicy -->
- <!--  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/> -->
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
 
 </manifest>
