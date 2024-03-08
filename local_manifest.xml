@@ -13,7 +13,7 @@
  <project path="kernel/xiaomi/rock" name="kernel_xiaomi-yunluo" remote="yunluo" revision="tm" />
 
  <!-- Hardware Xiaomi -->
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pos" revision="tiramisu"/>
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pos" revision="thirteen"/>
 
  <!-- Mtk Hardware -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/>
