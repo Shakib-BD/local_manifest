@@ -7,18 +7,18 @@
   <remote name="pos" fetch="https://github.com/PixelOS-AOSP" />
 
  <!-- Device Tree -->
- <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="14-DerpFest"/>
+ <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="14-BlackIron"/>
 
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/rock" name="kernel_xiaomi-yunluo" remote="yunluo" revision="tm" />
 
  <!-- Hardware Xiaomi -->
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pos" revision="thirteen"/>
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pos" revision="fourteen"/>
 
  <!-- Mtk Hardware -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/>
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-21"/>
 
  <!-- Mtk sepolicy -->
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-21"/>
 
 </manifest>
