@@ -7,10 +7,10 @@
   <!-- <remote name="los" fetch="https://github.com/LineageOS" /> -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="13-AfterLife-Vanilla"/>
+ <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="14-Evo-Test"/>
 
  <!-- Kernel Tree -->
- <project path="kernel/xiaomi/rock" name="kernel_xiaomi-yunluo" remote="yunluo" revision="tm" />
+ <project path="kernel/xiaomi/rock" name="kernel_xiaomi-yunluo" remote="yunluo" revision="udc" />
 
  <!-- Hardware Xiaomi -->
  <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/> -->
